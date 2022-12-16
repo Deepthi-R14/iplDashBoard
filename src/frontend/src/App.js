@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route,Routes} from "react-router-dom";
 import TeamPage from "./pages/TeamPage";
 import MatchPage from "./pages/MatchPage";
-
+import { HomePage } from "./pages/HomePage";
 function App() {
   return (
     <div className="App">
@@ -12,6 +12,9 @@ function App() {
         </Routes>
         <Routes>
         <Route path="/team/:teamName/matches/:year" element= {<MatchPage />}/>
+        </Routes>
+        <Routes>
+        <Route path="/" element={<HomePage/>}/>
         </Routes>
       </Router>
     </div>

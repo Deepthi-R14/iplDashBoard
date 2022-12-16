@@ -1,0 +1,13 @@
+.MatchPage{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.Years-Component{
+    justify-self: center;
+    h1{
+        margin-bottom: 2vw;
+    }
+    h3{
+        padding-top: 8px;
+    }
+}
