@@ -1,18 +1,18 @@
 
-package io.javabrains.ipldashboard.data;
+package io.javafolder.ipldashboard.data;
 
 import java.time.LocalDate;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+// import org.slf4j.Logger;
+// import org.slf4j.LoggerFactory;
 
 import org.springframework.batch.item.ItemProcessor;
 
-import io.javabrains.ipldashboard.model.Match;
+import io.javafolder.ipldashboard.model.Match;
 
 public class matchDataProcessor implements ItemProcessor<matchInput, Match> {
 
-    private static final Logger log = LoggerFactory.getLogger(matchDataProcessor .class);
+    //private static final Logger log = LoggerFactory.getLogger(matchDataProcessor .class);
 
     @Override
     public Match process(final matchInput matchInput) throws Exception {

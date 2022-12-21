@@ -9,12 +9,10 @@ function App() {
       <Router>
         <Routes>
         <Route path="/team/:teamName" element= {<TeamPage />}/>
-        </Routes>
-        <Routes>
+        
         <Route path="/team/:teamName/matches/:year" element= {<MatchPage />}/>
-        </Routes>
-        <Routes>
-        <Route path="/" element={<HomePage/>}/>
+        
+        <Route index element={<HomePage/>}/>
         </Routes>
       </Router>
     </div>

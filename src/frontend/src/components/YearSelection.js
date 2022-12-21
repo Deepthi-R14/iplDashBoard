@@ -11,7 +11,7 @@ export const YearSelection = ({teamName}) => {
   }
   return (
 
-years.map(year => <h3>
+years.map(year => <h3  key={year}>
    <Link to={`/team/${teamName}/matches/${year}`}>{year}</Link> 
     </h3> )
 

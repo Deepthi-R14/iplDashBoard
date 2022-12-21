@@ -1,4 +1,4 @@
-package io.javabrains.ipldashboard.data;
+package io.javafolder.ipldashboard.data;
 
 
 import javax.sql.DataSource;
@@ -20,7 +20,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 
-import io.javabrains.ipldashboard.model.Match;
+import io.javafolder.ipldashboard.model.Match;
 
 @Configuration
 @EnableBatchProcessing

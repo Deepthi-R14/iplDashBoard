@@ -52,7 +52,7 @@ export default function TeamPage() {
       </div>
 
       {team.matches.slice(1).map((match) => (
-        <MatchSmallCard teamName={team.teamName} match={match} />
+        <MatchSmallCard teamName={team.teamName} match={match} key={match.id}/>
       ))}
       <div className="more-link">
         <Link

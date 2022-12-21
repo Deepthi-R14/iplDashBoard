@@ -1,4 +1,4 @@
-package io.javabrains.ipldashboard.data;
+package io.javafolder.ipldashboard.data;
 
 public class matchInput {
     private String id;	
